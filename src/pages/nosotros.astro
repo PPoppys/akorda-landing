@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Nosotros" description="Conoce Akorda">
+  <section class="section">
+    <div class="container">
+      <h1>Nosotros</h1>
+      <div class="content">
+        <p>
+          Akorda es una empresa dedicada a ofrecer soluciones de calidad.
+          Aquí irá la descripción completa de la empresa, su misión, visión y valores.
+        </p>
+        <h2>Misión</h2>
+        <p>Descripción de la misión de Akorda.</p>
+        <h2>Visión</h2>
+        <p>Descripción de la visión de Akorda.</p>
+        <h2>Valores</h2>
+        <ul>
+          <li>Valor 1</li>
+          <li>Valor 2</li>
+          <li>Valor 3</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .section {
+    padding: 4rem 0;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    max-width: 720px;
+  }
+
+  .content p,
+  .content ul {
+    color: var(--color-text-muted);
+    margin-bottom: 1.25rem;
+  }
+
+  .content h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.35rem;
+  }
+
+  .content ul {
+    padding-left: 1.5rem;
+  }
+
+  .content li {
+    margin-bottom: 0.5rem;
+  }
+</style>
