@@ -2,32 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="Inicio" description="Akorda — Soluciones para tu negocio">
+<BaseLayout title="Inicio" description="Akorda — Página en construcción">
   <section class="hero">
     <div class="container">
       <h1>Akorda</h1>
-      <p class="hero-sub">Soluciones para tu negocio</p>
-      <a href="/contacto" class="btn">Contactar</a>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <h2>Nuestros servicios</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Servicio 1</h3>
-          <p>Descripción breve del servicio que ofrece Akorda.</p>
-        </div>
-        <div class="card">
-          <h3>Servicio 2</h3>
-          <p>Descripción breve del servicio que ofrece Akorda.</p>
-        </div>
-        <div class="card">
-          <h3>Servicio 3</h3>
-          <p>Descripción breve del servicio que ofrece Akorda.</p>
-        </div>
-      </div>
+      <p class="hero-sub">Página en construcción.</p>
+      <p class="hero-note">Oscar y Albert vamos a intentar hacer cosas muuuuy guaaapas!</p>
     </div>
   </section>
 </BaseLayout>
@@ -48,52 +28,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   .hero-sub {
     font-size: 1.25rem;
     color: var(--color-text-muted);
-    margin-bottom: 2rem;
-  }
-
-  .btn {
-    display: inline-block;
-    padding: 0.75rem 2rem;
-    background: var(--color-primary);
-    color: #fff;
-    border-radius: var(--radius);
-    font-weight: 600;
-    transition: background 0.15s;
-  }
-
-  .btn:hover {
-    background: var(--color-primary-dark);
-    text-decoration: none;
-  }
-
-  .section {
-    padding: 4rem 0;
-  }
-
-  .section h2 {
-    text-align: center;
-    margin-bottom: 2.5rem;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-  }
-
-  .card {
-    padding: 2rem;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius);
-  }
-
-  .card h3 {
     margin-bottom: 0.75rem;
-    font-size: 1.15rem;
   }
 
-  .card p {
+  .hero-note {
+    max-width: 640px;
+    margin: 0 auto;
     color: var(--color-text-muted);
-    font-size: 0.95rem;
+    font-size: 1.05rem;
   }
 </style>
